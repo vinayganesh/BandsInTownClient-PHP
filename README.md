@@ -1,6 +1,6 @@
-Echonest API PHP Library
+Bands In Town API PHP Library
 =====================
-This is a library to abstract the Echonest API 
+This is a library to abstract the Bands In Town API 
 
 Installation
 ------------
