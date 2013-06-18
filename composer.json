@@ -1,0 +1,32 @@
+{
+    "name": "bandsintown/bandsintown",
+    "description": "A PHP sdk to use bandsintown API",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "bandsintown",
+        "music",
+        "zf2"
+    ],
+    
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zend-http": "2.*,!=2.0.6",
+        "zendframework/zend-json": "2.*,!=2.0.6",
+        "zendframework/zend-i18n": "2.*,!=2.0.6" 
+    },
+    
+    "homepage": "http://www.bandsintown.com/api/overview",
+    "authors": [
+        {
+            "name": "Vinay Ganesh",
+            "email": "vinayganeshh@gmail.com",
+            "homepage": "http://www.corrode.in"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "BandsInTown": "src/"
+        }
+    }
+}
