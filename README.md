@@ -17,7 +17,6 @@ Installation
 
 Use
 ---
-usage
 ```php
 use BandsInTown\Service\BandsInTown;
 
