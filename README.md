@@ -17,7 +17,16 @@ Installation
 
 Use
 ---
-Configure the service
+usage
 ```php
 use BandsInTown\Service\BandsInTown;
+
+include('./vendor/autoload.php')
+
+BandsInTown::getArtists('<band Name>','<appid>');
+
+
+Note
+____
+The app id can be anything that identifies the application. 
 
